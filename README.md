@@ -20,7 +20,7 @@ $data = $decoder->decode($binaryString);
 
 // OR
 $byteArray = [24, 100];
-$data = $decoder->decodeArrayOfBytes($byteArray);
+$data = $decoder->decodeFromByteArray($byteArray);
 ```
 
 There is currently very limited support for [tagged types](https://tools.ietf.org/html/rfc7049#section-2.4).
